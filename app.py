@@ -42,9 +42,16 @@ def add():
         newTask = Task(taskName, taskDescription)
         db.session.add(newTask)
         db.session.commit()
-        
-        
     return redirect("/")
+
+@app.route("/<int:id>/delete")
+def delete(id):
+    task_to_delete = Task.query.get_or_404(id)
+    db.session.delete(task_to_delete)
+    db.session.commit()
+    
+    return redirect("/")
+
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port="80")
