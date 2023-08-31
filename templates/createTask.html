@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block title %}Add New Task{% endblock %}
+{% block body %}
+<h1>Add New Task</h1>
+<form action="/add" method="post" class="m-5 p-2">
+    <input type="text" name="taskName" id="taskName" class="form-control border border-info border-2 my-2" placeholder="Task Name" required>
+    <textarea name="taskDescription" id="taskDescription" class="form-control border border-info border-2 my-2" cols="30" rows="10" placeholder="Task Description" required style="resize: none;"></textarea>
+    <input type="submit" value="Add" class="btn btn-primary">
+</form>
+{% endblock %}

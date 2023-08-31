@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block title %}Task Manager{% endblock %}
+{% block body %}
+<h1 class="fs-1 m-5">Task Manager</h1>
+<ul>
+{% for task in tasks %}
+<h2>{{task.taskName}}</h2>
+<p>{{task.taskDescription}}</p>
+<span>{{task.dateCreated}}</span>
+{% endfor %}
+</ul>
+<a href="/addTask" class="btn btn-primary">Add Task</a>
+{% endblock %}
