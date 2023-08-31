@@ -1,12 +1,12 @@
 # TODO App using Flask - README 📝
 
-🍴 ![GitHub forks](https://img.shields.io/github/forks/Akash-nath29/TODO_FLASK?style=social)
-⭐️ ![GitHub stars](https://img.shields.io/github/stars/Akash-nath29/TODO_FLASK?style=social)
-👁️‍🗨️ ![GitHub watchers](https://img.shields.io/github/watchers/Akash-nath29/TODO_FLASK?style=social)
-📦 ![GitHub repo size](https://img.shields.io/github/repo-size/Akash-nath29/TODO_FLASK)
-🐞 ![GitHub issues](https://img.shields.io/github/issues/Akash-nath29/TODO_FLASK)
-🚀 ![GitHub pull requests](https://img.shields.io/github/issues-pr/Akash-nath29/TODO_FLASK)
-📜 ![GitHub license](https://img.shields.io/github/license/Akash-nath29/TODO_FLASK)
+- 🍴 ![GitHub forks](https://img.shields.io/github/forks/Akash-nath29/TODO_FLASK?style=social)
+- ⭐️ ![GitHub stars](https://img.shields.io/github/stars/Akash-nath29/TODO_FLASK?style=social)
+- 👁️‍🗨️ ![GitHub watchers](https://img.shields.io/github/watchers/Akash-nath29/TODO_FLASK?style=social)
+- 📦 ![GitHub repo size](https://img.shields.io/github/repo-size/Akash-nath29/TODO_FLASK)
+- 🐞 ![GitHub issues](https://img.shields.io/github/issues/Akash-nath29/TODO_FLASK)
+- 🚀 ![GitHub pull requests](https://img.shields.io/github/issues-pr/Akash-nath29/TODO_FLASK)
+- 📜 ![GitHub license](https://img.shields.io/github/license/Akash-nath29/TODO_FLASK)
 
 Welcome to the TODO App developed using Flask! This application provides a convenient way to manage your tasks. You can add tasks along with their names and descriptions, which will be stored in a database for efficient tracking.
 
